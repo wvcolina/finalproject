@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project - My Kitchen</title>
+  <link  href="css/style.css" rel="stylesheet">
+  <link href="dist/css/lightbox.css" rel="stylesheet">
+  <script src="dist/js/lightbox-plus-jquery.js"></script>
+</head>
+
+<body >  
+  <header>
+    <h1>My Kitchen</h1>
+        <img id="img_header" src="images/cupcake2.jpg" alt="Decorative Image">
+  </header>
+  
+  
+  <main>
+    <script>
+            lightbox.option({
+            'showImageNumberLabel': false,
+        })
+    </script>
+
+    <div class="global">
+    <div class = "text">
+        <h3>Recipes from My Kitchen</h3>
+        <p>Welcome to a culinary journey full of delicacies that will delight your eyes. These nine images take us on a tour of the gastronomic world, highlighting diversity and creativity. From juicy Stuffed Chicken that awakens the senses to irresistible Cupcakes that are small works of art, each photograph is a real image of the food in my kitchen.
+        <br>
+        <br>
+        We see a succulent Hamburger, the craftsmanship of the Tequeños, the variety of tastes in a Sandwich and the Venezuelan tradition with the charming Ham Bread and the contrast of flavors in a Patacon.</p>
+    </div>
+    
+    <div class = "grid">
+        <div class = "item" >
+            <a href="images/hamburger.png" data-lightbox="img" data-title="Hamburger">
+                <img  alt = "hamburger" src = "images/hamburger.png" >
+            </a>
+            <a href="hamburgerrecipe.html">Hamburger Recipe</a>
+        </div>
+
+        <div class = "item">
+            <a href="images/ham_bread.png" data-lightbox="img" data-title="Ham Bread">
+                <img  alt = "ham_Bread" src = "images/ham_bread.png" >
+            </a>
+            <a href="hambreadrecipe.html">Ham Bread Recipe</a>
+        </div>
+
+        <div class = "item">
+            <a href="images/mini_cupcake.png" data-lightbox="img" data-title="Mini Cupcakes">
+                <img  alt = "mini_cupcake" src = "images/mini_cupcake.png" >
+            </a>
+            <a href="minicupcakerecipe.html">Mini Cupcake Recipe</a>
+        </div>
+
+        <div class = "item">
+            <a href="images/patacon.png" data-lightbox="img" data-title="Patacon">
+                <img  alt = "patacon" src = "images/patacon.png" >
+            </a>
+            <a href="pataconrecipe.html">Patacon Recipe</a>
+        </div>
+
+        <div class = "item">
+            <a href="images/stuffed_chicken.jpg" data-lightbox="img" data-title="Stuffed Chicken">
+                <img alt="Stuffed Chicken" src="images/stuffed_chicken.jpg" >
+            </a>
+            <a href="stuffedchickenrecipe.html">Stuffed Chicken Recipe</a>
+        </div>
+
+        <div class = "item">
+            <a href="images/tequeños.jpg" data-lightbox="img" data-title="Tequeños">
+                <img alt="Tequeños" src="images/tequeños.jpg" >
+            </a>
+            <a href="tequenosrecipe.html">Tequeños Recipe</a>
+        </div>
+
+        
+    </div>
+    </div>
+  </main>
+
+  <footer>
+    <a href="#img_header">Jump to the Top</a>
+  </footer>
+</body>
+
+</html>

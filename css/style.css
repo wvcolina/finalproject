@@ -1,0 +1,165 @@
+/* Proyecto Interactivity JavaScript */
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #Af437B;
+}
+
+h1{
+    color: #FFFFFF;
+	font-size: 50px;
+	margin-left: 50px;
+    text-align: center;
+}
+
+#img_header{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    padding: 3px;
+    border:solid 2px #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    
+} 
+
+/* Proyecto responsive */
+
+.item {
+    text-align: center;
+    position: relative;
+}
+
+.text{
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+img {
+    height: 75%;
+    width: 100%;
+    border:solid 2px #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 75px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.cupcake {
+    display: grid;
+    gap: 10px;
+    margin-top: 75px;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ingredientes h1{
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+}
+.ingredientes, .preparacion {
+    width: 100%
+}
+
+.img_receta {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img_receta img{
+    height: 70%;
+    width: 70%;
+    border-radius: 10px 10px 10px 10px;
+    
+
+ 
+}
+
+
+@media (width > 425px) {
+    header{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .ingredientes, .preparacion img_receta{
+        width: auto;
+    }
+
+    .preparacion {
+        grid-column: span 2;
+    }
+
+}
+
+@media (width > 1024px) {
+    .global {
+        display: flex;
+    }
+    .text{
+        font-size: 20px;
+        max-width: 600px;
+        margin-top: 125px;
+    }
+
+    img {
+        height: 75%;
+        width: 90%;
+    }
+
+}
+
+
+
+@media screen{
+    footer>a:active{
+       scroll-behavior: auto;
+    }
+}
+
+
+
+
+
+
+/*
+@media (prefers-color-scheme: dark){
+    figure {
+        border: 2px solid black;
+    }
+
+    figcaption {
+        background: black;
+        color: yellow;
+    }
+
+}
+
+*/
+
+
+
+
+
+
+
